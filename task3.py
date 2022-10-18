@@ -1,7 +1,8 @@
 #!python3
 '''
 ##### Task 3
-Split a string into 2 halves and insert a line break in the middle.  If doing so cuts a word in half, add a dash to the first line.  You will need to make use of the
+Split a string into 2 halves and insert a line break in the middle.  If doing so cuts a word in half, add a dash to the first line. 
+You will need to make use of the
 
 len(str) function
 this function returns the length of the string

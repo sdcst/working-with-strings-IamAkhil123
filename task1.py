@@ -8,18 +8,21 @@ The assertion tests are included so you can test your output
 '''
 
 def replaceDog(input):
+
     '''
     parameters:
     str input - string to search and replace occurrences of dog with kitty
 
-    return
     str - the modified string
     '''
-    modifiedString = input
+
+    string = input
+
+    modifiedString = string.replace( "dog", "kitty" )
 
     return modifiedString
 
-
+"""
 if __name__ == "__main__":
     '''
     assertion tests are basically a statement claiming truth
@@ -31,3 +34,4 @@ if __name__ == "__main__":
 
     x = 'i have a dog and a goldfish as my pets'
     assert replaceDog(x) == 'i have a kitty and a goldfish as my pets'
+"""
